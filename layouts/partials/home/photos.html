@@ -1,4 +1,4 @@
-{{ with .Site.GetPage "/projects" }}
+{{ with .Site.GetPage "/photos" }}
 <div class="section" id="{{ .Title | urlize }}">
     <!-- Begin Projects container -->
     <div class="container">
@@ -12,7 +12,7 @@
                 {{ range $index, $element := .Pages.ByWeight | first $numberOfProjectsToShow }}
                 {{ $width := "302x" }}
                 {{ $columWidth := "is-one-third" }}
-                {{ if .Site.Params.projects.useTwoColumns }}
+                {{ if .Site.Params.photos.useTwoColumns }}
                   {{ $columWidth = "is-half" }}
                   {{ $width = "490x" }}
                 {{ end}}

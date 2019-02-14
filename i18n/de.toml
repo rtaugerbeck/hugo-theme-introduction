@@ -3,7 +3,7 @@
 [404_description]
     other = "Oop! Endweder hast du einen Fehler gefunden{{ with .Site.Params.email }} ([dann kontaktiere mich bitte](mailto:{{ . }})) {{ end }} oder du versucht etwas zu finden, was es nicht gibt. Diese Seite exisiert nicht!"
 [index_projects_allProjects]
-    other = "Alle Projekte"
+    other = "Alle Fotoalben"
 [index_blog_latestPosts]
     other = "Neuster Artikel"
 [index_blog_allPosts]
@@ -22,4 +22,5 @@
 [blog_shareThis]
     other = "Teilen"
 [footer_text]
-    other = "[**Vorstellung**](https://github.com/vickylai/hugo-theme-introduction/), ein Theme für [Hugo](http://gohugo.io/). Entwickelt mit [<i class=\"fa fa-heart\"></i> und <i class=\"fa fa-coffee\"></i>](https://vickylai.com) von Open Source Mitwirkenden"
+    other = "Design based on [**Introduction**](https://github.com/vickylai/hugo-theme-introduction/) theme for [Hugo](http://gohugo.io/). Made with [<i class=\"fa fa-heart\"></i> and <i class=\"fa fa-coffee\"></i>](https://vickylai.com) by open source contributors.\
+    <br>&copy; 2019 Ralf Taugerbeck"

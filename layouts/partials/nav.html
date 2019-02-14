@@ -48,9 +48,9 @@
             {{ end }}
             {{ end }}
 
-            {{ $pageIsInProjects := eq .Page.Section "projects"}}
+            {{ $pageIsInProjects := eq .Page.Section "photos"}}
             {{ if not (and $pageIsInProjects (eq .Page.Kind "section")) }}
-            {{ with .Site.GetPage "/projects" }}
+            {{ with .Site.GetPage "/photos" }}
             {{ $totalProjects := (len .Pages) }}
             {{ if $isHome }}
             <a class="navbar-item" href="{{ printf "#%s" (.Title | urlize) }}">{{ .Title }}</a>
