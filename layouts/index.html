@@ -8,7 +8,7 @@
         {{ partial "css/owlCarousel.html" . }}
     </head>
     <body>
-        <section id="top" class="section">
+        <section id="top" class="intro">
             {{ with .Site.GetPage "/home" }}
             <div class="hero is-{{ .Site.Params.home.introHeight | default "large" }}">
                 <!-- Super sweet Hero body title -->
@@ -18,7 +18,7 @@
                         <h1 class="bold-title {{ if or (.Site.Params.fadeIn | default true) .Site.Params.fadeInIndex }}fade-in one{{ end }}">
                             {{ .Title }}
                         </h1>
-                        <div class="subtitle is-3 {{ if or (.Site.Params.fadeIn | default true) .Site.Params.fadeInIndex }}fade-in two{{ end }}">
+                        <div class="subtitle is-4 {{ if or (.Site.Params.fadeIn | default true) .Site.Params.fadeInIndex }}fade-in two{{ end }}">
                             {{ .Content }}
                         </div>
                         <!-- End title and tagline -->
@@ -87,7 +87,7 @@
                          <p>{{ i18n "index_currentTime" . }} <span id="time"></span>.</p>
                         {{ end }}
                         {{ with .Site.Params.email }}
-                        <h3 class="subtitle is-3 has-text-centered top-pad">
+                        <h3 class="subtitle is-4 has-text-centered top-pad">
                             <a href="mailto:{{ . }}">{{ . }}</a>
                         </h3>
                         {{ end }}
