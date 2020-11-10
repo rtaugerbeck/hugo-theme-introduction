@@ -1,7 +1,7 @@
 [404_title]
     other = "404"
 [404_description]
-    other = "Oups ! Vous avez soit trouvé un bug{{ with .Site.Params.email }} (auquel cas, [dites-le moi](mailto:{{ . }})) {{ end }} ou vous vous imaginez des choses. Cette page n'existe pas !"
+    other = "Oups ! Vous avez soit trouvé un bogue{{ with .Site.Params.email }} (auquel cas, [dites-le moi](mailto:{{ . }})) {{ end }} ou vous vous imaginez des choses. Cette page n'existe pas !"
 [index_projects_allProjects]
     other = "Tous les projets"
 [index_blog_latestPosts]
@@ -22,4 +22,4 @@
 [blog_shareThis]
     other = "Partagez"
 [footer_text]
-    other = "Thème [**Introduction**](https://github.com/victoriadotdev/hugo-theme-introduction/) pour [Hugo](http://gohugo.io/). Fait avec [<i class=\"fa fa-heart\"></i> et <i class=\"fa fa-coffee\"></i>](https://victoria.dev) par des contributeurs open-source."
+    other = "Thème [**Introduction**](https://github.com/victoriadrake/hugo-theme-introduction/) pour [Hugo](http://gohugo.io/). Fait avec [<i class=\"fa fa-heart\"></i> et <i class=\"fa fa-coffee\"></i>](https://victoria.dev) par des contributeurs open-source."
